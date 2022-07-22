@@ -1,0 +1,12 @@
+[16,21,11,8,12,22] -> Merge Sort
+- Diziyi iki'ye bölerek parçalara ayırıyoruz [16,21,11] ve [8,12,22] olarak sonra bunları da tek kalana kadar aynı şekilde bölüyoruz.
+- [16,21,11] -> [16,21] ve [11] sonra [16,21] -> [16] [21] [8,12,22]-> [8,12] ve [22] sonra [8,12] -> [8] [12] 
+- en son olarak elimizde kalan parçaları soldan sağa sıralayarak birleştiriyoruz ilk kısmı birleştirelim.
+- [16] [21] [11] 16 ile 21 'i sorguluyoruz sonra 16 ile 11'i ve sıralama [11,16,21] şeklinde oluyor.
+- ikinci parçayıda aynı şekilde yaptığımızda [8,12,22] halini alıyor. 
+- sonrasında ise bu iki parçayı soldan sağa sıralayarak birleştiriyoruz. 11 > 8 olduğu için 8 ilk eleman 11 < 12 olduğu için 11 ikinci eleman oluyor ve daha sonrasında 16
+ile kontrole devam ediyoruz 16 > 12 olduğu için 12 üçüncü eleman 16 < 22 olduğu için 16 dördüncü eleman oluyor ve 21 ile devam ediyoruz 21 < 22 olduğu için 21 beşinci 
+eleman 22 ise altıncı eleman oluyor.
+Son olarak dizi ise [8,11,12,16,21,22] Halini alıyor.
+
+Big O gösterimi = n*log(n)
