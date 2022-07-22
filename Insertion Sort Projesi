@@ -6,5 +6,23 @@
   - Dizinin beşinci elemanı olan 18 alınır ve 18 < 22 ve 18 > 16 olduğu için 18 22'nin önüne alınır, geri kalan elemanlar kaydırılır. [2,16,18,22,27,6]
   - Dizinin son elemanı olan 6 alınır 6 < 16 ve 6 > 2 olduğu için 16'nın önüne alınır, geri kalan elemanlar kaydırılır. Son hali --->>> [2,6,16,18,22,27]
   ve böylece dizi sıralanır.
+  
 2. Big O gösterimi:
+  worst case : O(n^2)
+  average case : O(n^2)
+  best case : O(n^2)
+  
+3. Time Complexity: 
+  worst case : [27,22,18,16,6,2]
+  best case : [2,6,16,18,22,27]
+  
+4. [2,6,16,18,22,27] dizi sıralandıktan sonra bu şekilde olacağı için 18 ortada yer alır ve average case kategorisine girer.
+  
+  
+[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+  [7|,3,5,8,2,9,4,15,6]
+  [3,7|,5,8,2,9,4,15,6]
+  [3,5,7|,8,2,9,4,15,6]
+  [3,5,7,8|,2,9,4,15,6]
   
