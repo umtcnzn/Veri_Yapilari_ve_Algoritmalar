@@ -1,0 +1,10 @@
+[22,27,16,2,18,6] ->> Insertion Sort
+1. Sıralama Aşamaları:
+  - Dizinin ikinci elemanı olan 27 seçilir ve 27 < 22 kontrolü yapılır ancak 27 22'den büyük olduğu için dizi olduğu gibi kalır. [22,27,16,2,18,6]
+  - Dizinin üçüncü elemanı olan 16 seçilir 16 < 27 aynı zamanda 16 < 22 olduğu için 16 dizinin en başına alınır ve elemanlar kaydırılır. [16,22,27,2,18,6]
+  - Dizinin dördüncü elemanı olan 2 alınır 2 < 27, 2 < 22 ve 2 < 16 olduğu için 2 en başa alınır. [2,16,22,27,18,6]
+  - Dizinin beşinci elemanı olan 18 alınır ve 18 < 22 ve 18 > 16 olduğu için 18 22'nin önüne alınır, geri kalan elemanlar kaydırılır. [2,16,18,22,27,6]
+  - Dizinin son elemanı olan 6 alınır 6 < 16 ve 6 > 2 olduğu için 16'nın önüne alınır, geri kalan elemanlar kaydırılır. Son hali --->>> [2,6,16,18,22,27]
+  ve böylece dizi sıralanır.
+2. Big O gösterimi:
+  
